@@ -1,0 +1,48 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ethersproject/providers": "^5.7.2",
+    "@truffle/hdwallet-provider": "^2.1.9",
+    "aws-sdk": "^2.1279.0",
+    "axios": "^1.2.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.1",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.0",
+    "ethers": "5.0",
+    "express": "^4.17.3",
+    "in-memory-otp": "^1.4.0",
+    "ipfs-http-client": "^56.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "myinfo-connector-nodejs": "^0.0.11",
+    "nonce": "^1.0.4",
+    "otp-generator": "^4.0.0",
+    "otp-without-db": "^1.0.4",
+    "pg": "^8.7.3",
+    "pg-format": "^1.0.4",
+    "react-uuid": "^1.0.3",
+    "socket.io": "^4.4.0",
+    "stripe": "^10.7.0",
+    "superagent-bluebird-promise": "^4.2.0",
+    "web3": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "engines": {
+    "node": "16.13.0"
+  }
+}
